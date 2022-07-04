@@ -6,14 +6,16 @@ body {
 .half-width {
     width: 50%;
     padding-left: 2%;
+
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
 }
 
 .orange-color {
@@ -26,6 +28,6 @@ section {
 
     text-decoration: none;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 100px;
     color: white;
 }
