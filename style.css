@@ -3,19 +3,40 @@ body {
     margin: 0;
 }
 
+.shuru-te {
+
+    width: 50%;
+}
+
 .half-width {
     width: 50%;
     padding-left: 2%;
+    text-align: justify;
 
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
 
+#about-me {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    display: flex;
+
+}
+
 .half-width img {
-    width: 100%;
+    width: 80%;
+
+}
+
+
+.half-width p {
+    max-width: 500px;
+    padding-right: 2%;
+    margin-right: 20%;
+
 }
 
 .orange-color {
@@ -30,4 +51,67 @@ section {
     font-weight: 700;
     border-radius: 100px;
     color: white;
+}
+
+.new-div {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.arekta {
+    text-align: center;
+}
+
+
+.flexible-container {
+    display: flex;
+    margin-left: 9%;
+}
+
+
+.recep-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+
+}
+
+.recep-item img {
+    width: 100%;
+}
+
+.alada {
+    display: flex;
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 6%;
+    border-radius: 0%;
+    font-size: larger;
+
+}
+
+.notun {
+    text-align: center;
+    box-shadow: 15px 15px 15px rgba(128, 128, 128, 0.88);
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.hunger {
+    text-align: center;
+}
+
+.orange-color {
+    color: orange;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.gray-rong {
+    color: rgba(128, 128, 128, 0.877);
 }
